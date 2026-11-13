@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Queen Sarah Ahista ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+:root{--bg:#210711;--bg2:#310b1b;--pink:#f4a6bd;--rose:#d96b91;--cream:#fff7ed;--muted:#c99aaa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 20%,#451127 0%,var(--bg) 62%);color:var(--cream);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+button{font:inherit;cursor:pointer}.hidden{display:none!important}.center{text-align:center}.eyebrow{letter-spacing:3px;text-transform:uppercase;color:#d98ba7;font-size:10px;font-weight:600}.section{padding:90px 20px;max-width:1000px;margin:auto;text-align:center;position:relative}.section h2{font:600 clamp(28px,5vw,42px) 'Playfair Display',serif;margin:10px 0}.sub{color:#d5a9b8;font-size:13px;margin:0 auto 32px}.petal{position:fixed;z-index:0;pointer-events:none;opacity:.55;animation:float 12s ease-in-out infinite}.petal:nth-child(2n){animation-duration:16s}@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-35px) rotate(25deg)}}
+#gate{min-height:100vh;display:grid;place-items:center;padding:20px;position:relative;z-index:2}.gate-card{width:min(100%,360px);padding:35px 28px;border:1px solid #ffffff18;border-radius:25px;background:#ffffff08;backdrop-filter:blur(10px);text-align:center;box-shadow:0 20px 70px #0004}.gate-flower{font-size:30px;color:var(--pink)}.gate-card h1{font:500 25px 'Playfair Display';margin:12px 0 5px}.gate-card p{color:#d5a9b8;font-size:12px}.dots{display:flex;justify-content:center;gap:12px;margin:24px}.dot{width:9px;height:9px;border:1px solid #c77b98;border-radius:50%}.dot.on{background:var(--pink);box-shadow:0 0 10px var(--pink)}.keypad{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:210px;margin:auto}.key{height:48px;border-radius:50%;border:1px solid #ffffff10;background:#ffffff0d;color:white;font-size:16px;transition:.2s}.key:hover{background:#d96b91}.key.enter{background:#e9a0b9;color:#381021}.error{height:16px;color:#ff9bb4;font-size:11px}
+#main{position:relative;z-index:1}.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 20px 40px;position:relative}.hero h1{font:500 clamp(48px,9vw,82px)/.95 'Playfair Display';margin:22px 0}.hero h1 em{color:var(--pink);font-weight:500}.date{font-size:11px;letter-spacing:2px;color:#d79caf}.cake{font-size:100px;display:block;margin:28px auto 10px;filter:drop-shadow(0 10px 20px #f58aaa30);animation:bob 3s infinite}@keyframes bob{50%{transform:translateY(-8px)}}.pill{border:1px solid #ffffff20;background:#ffffff0b;color:#ffd5e1;padding:10px 18px;border-radius:30px;font-size:12px}.intro{max-width:520px;margin:25px auto 0;padding:22px;border:1px solid #ffffff16;border-radius:18px;background:#ffffff08;color:#f2dce4;font:italic 15px/1.8 'Playfair Display'}
+.letter{max-width:620px;margin:25px auto;background:var(--cream);color:#5b3541;border-radius:18px;padding:35px;text-align:left;box-shadow:0 20px 50px #0004;font:italic 15px/1.9 'Playfair Display';transform:rotate(-.5deg)}.letter .sign{text-align:right;margin-top:22px;color:#bd718b}
+.bouquet{height:300px;display:flex;align-items:end;justify-content:center;gap:8px;margin:10px auto 20px;max-width:430px;position:relative}.stem{width:2px;height:155px;background:#6b9c71;position:relative;transform-origin:bottom;}.stem:nth-child(2){height:190px}.stem:nth-child(3){height:220px}.stem:nth-child(4){height:175px}.stem:nth-child(5){height:200px}.flower{position:absolute;top:-38px;left:50%;transform:translateX(-50%);font-size:35px;border:0;background:#ffffff12;border-radius:50%;width:58px;height:58px;transition:.25s}.flower:hover{transform:translateX(-50%) scale(1.18);filter:drop-shadow(0 0 12px pink)}.vase{position:absolute;bottom:0;width:75px;height:48px;border-radius:8px 8px 25px 25px;background:#ef9eb9}
+.note-display{max-width:500px;margin:20px auto;padding:18px;border:1px solid #ffffff18;border-radius:15px;color:#f4dce5;font:italic 15px/1.7 'Playfair Display';min-height:65px}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:650px;margin:30px auto}.memory{height:270px;perspective:1000px;cursor:pointer}.memory-inner{height:100%;position:relative;transition:transform .7s;transform-style:preserve-3d}.memory.flipped .memory-inner{transform:rotateY(180deg)}.front,.back{position:absolute;inset:0;backface-visibility:hidden;border-radius:12px;overflow:hidden}.front{background:linear-gradient(145deg,#714057,#321021);display:flex;align-items:center;justify-content:center;flex-direction:column;color:#f4c7d5}.front .camera{font-size:34px}.front small{margin-top:10px}.front img{width:100%;height:100%;object-fit:cover}.back{transform:rotateY(180deg);background:var(--cream);color:#694050;padding:22px;display:flex;align-items:center;justify-content:center;font:italic 16px/1.6 'Playfair Display'}
+.timeline{max-width:620px;margin:35px auto;text-align:left;border-left:1px solid #b56a88;padding-left:28px}.event{position:relative;padding:0 0 35px}.event:before{content:'♡';position:absolute;left:-38px;top:0;color:var(--pink);background:var(--bg);font-size:18px}.event h3{font:500 20px 'Playfair Display';margin:0 0 8px}.event p{font-size:13px;line-height:1.7;color:#d9b7c3;margin:0}
+.player{max-width:420px;margin:30px auto;padding:28px;border:1px solid #ffffff17;border-radius:22px;background:#ffffff07}.disc{width:105px;height:105px;border-radius:50%;margin:18px auto;background:radial-gradient(circle,#f4a6bd 0 10%,#68263e 12% 35%,#140710 36%);box-shadow:0 0 35px #ef9eb933;animation:spin 8s linear infinite;animation-play-state:paused}.disc.playing{animation-play-state:running}@keyframes spin{to{transform:rotate(360deg)}}.player h3{font:500 22px 'Playfair Display';margin:12px 0 2px}.player small{color:#cda2b1}.controls{display:flex;align-items:center;justify-content:center;gap:22px;margin:20px}.controls button{border:0;background:transparent;color:#f7c3d3;font-size:22px}.controls .play{background:#efa5bd;color:#381021;width:48px;height:48px;border-radius:50%}.tracklist{margin-top:20px;text-align:left}.track{padding:12px;border-radius:10px;display:flex;justify-content:space-between;cursor:pointer;font-size:13px}.track.active,.track:hover{background:#ffffff12}.track small{color:#cda2b1}
+.jar{width:105px;height:145px;border:2px solid #a76b82;border-radius:20px 20px 30px 30px;margin:35px auto 18px;position:relative;background:#ffffff0a;display:flex;align-items:end;justify-content:center;padding:12px;gap:5px;flex-wrap:wrap}.jar:before{content:'';position:absolute;top:-12px;left:10px;right:10px;height:13px;background:#e99bb5;border-radius:8px}.paper{width:17px;height:13px;background:#f1b4c8;transform:rotate(15deg);border-radius:2px}.reason-card{max-width:440px;min-height:145px;background:var(--cream);color:#583747;border-radius:18px;padding:26px;margin:25px auto;font:italic 16px/1.7 'Playfair Display';display:grid;place-items:center}.reason-card small{font:600 10px 'DM Sans';letter-spacing:1px;color:#a87889}
+footer{text-align:center;padding:45px 20px 65px;color:#c18b9e;font-size:12px}
+.confetti{position:fixed;top:-15px;z-index:5;pointer-events:none;animation:fall linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:0}}
+@media(max-width:560px){.section{padding:70px 18px}.gallery{gap:10px}.memory{height:210px}.letter{padding:25px}.hero h1{font-size:58px}}
+</style>
+</head>
+<body>
+<div id="gate">
+ <div class="gate-card">
+  <div class="gate-flower">✿</div><h1>Untuk Queen Sarah Ahista, Cintaku</h1>
+  <p>Masukkan kode rahasia 🌸</p>
+  <div class="dots" id="dots"><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
+  <div class="keypad" id="keypad"></div><div class="error" id="error"></div>
+  <small style="color:#a9798c">Petunjuk: tanggal hari spesial mu ♡</small>
+ </div>
+</div>
+<div id="main" class="hidden">
+ <section class="hero">
+  <div><div class="eyebrow">✿ your special day ✿</div><h1>Happy<br><em>Birthday</em><br><span id="heroName">Queen Sarah Ahista</span></h1>
+  <div class="date" id="heroDate">NOVEMBER 17 · THE MOST SPECIAL DAY</div>
+  <button class="pill" style="margin-top:25px" onclick="document.querySelector('#letterSection').scrollIntoView({behavior:'smooth'})">Tap lilin untuk meniupnya! 🎂</button>
+  <div class="cake" onclick="blowCandles()" title="Klik untuk meniup lilin">🎂</div>
+  <div class="intro">Happy Birthday! Semoga hari ini dipenuhi senyum, kebahagiaan, dan hal-hal indah yang selalu kamu impikan. ♡</div></div>
+ </section>
+ <section class="section" id="letterSection"><div class="eyebrow">✉ a little letter for you</div><h2>Sepucuk Surat Untukmu</h2><p class="sub">Ada beberapa hal yang ingin aku sampaikan di hari spesialmu</p>
+  <div class="letter">Untuk Queen Sarah Ahista tersayang,<br><br>Selamat bertambah usia. Di hari yang istimewa ini, aku berharap semua hal baik selalu menemukan jalan menuju kamu. Semoga setiap langkahmu dipenuhi keberanian, setiap harimu punya alasan untuk tersenyum, dan semua mimpi yang kamu simpan perlahan menjadi nyata.<br><br>Terima kasih sudah menjadi seseorang yang begitu berarti. Jangan pernah lupa bahwa kamu berharga, kamu pantas bahagia, dan kamu layak mendapatkan segala hal baik di dunia ini.<br><br>Semoga tahun ini menjadi bab terbaik dalam cerita hidupmu.<div class="sign">Dengan segenap cinta,<br><b>Someone who cares about you ♡</b></div></div>
+ </section>
+ <section class="section"><div class="eyebrow">— my first gift —</div><h2>Digital Bouquet</h2><p class="sub">Setiap bunga menyimpan pesan kecil untukmu. Coba klik bunganya!</p>
+  <div class="bouquet"><div class="stem"><button class="flower" onclick="showNote(0)">🌹</button></div><div class="stem"><button class="flower" onclick="showNote(1)">🌻</button></div><div class="stem"><button class="flower" onclick="showNote(2)">💐</button></div><div class="stem"><button class="flower" onclick="showNote(3)">🌷</button></div><div class="stem"><button class="flower" onclick="showNote(4)">🌸</button></div><div class="vase"></div></div>
+  <div class="note-display" id="flowerNote">"Semoga senyummu selalu mekar seperti bunga dan menghangatkan dunia di sekitarmu." 🌷</div>
+ </section>
+ <section class="section"><div class="eyebrow">— little pieces of us —</div><h2>Caya Memories</h2><p class="sub">Ketuk setiap foto untuk mengungkap cerita di baliknya</p>
+  <div class="gallery" id="gallery"></div><p style="font-size:11px;color:#b98b9d"></p>
+ </section>
+ <section class="section"><div class="eyebrow">— our story —</div><h2>Jurnal Perjalanan Kita</h2><p class="sub">Beberapa momen yang ingin selalu aku ingat</p>
+  <div class="timeline"><div class="event"><h3>✨ Titik Awal</h3><p>Semua cerita indah selalu punya awal. Aku bersyukur karena semesta mempertemukan kita dan menghadirkan cerita yang berharga.</p></div><div class="event"><h3>🌷 Momen Sederhana</h3><p>Dari obrolan kecil hingga tawa sederhana, ternyata hal-hal kecil bisa menjadi kenangan yang begitu berarti.</p></div><div class="event"><h3>💗 Hari Ini</h3><p>Hari ini adalah tentang kamu. Tentang bertambahnya usia, mimpi baru, dan kebahagiaan yang semoga tidak pernah habis.</p></div><div class="event"><h3>🌙 Cerita Selanjutnya</h3><p>Semoga masih banyak halaman indah yang bisa kita tulis, satu demi satu.</p></div></div>
+ </section>
+ <section class="section"><div class="eyebrow">— from music with love —</div><h2>Our Playlist</h2><p class="sub">Pilih lagu yang ingin kamu dengarkan</p>
+  <div class="player"><div class="eyebrow">now playing</div><div class="disc" id="disc"></div><h3 id="songTitle">A Little Love Song</h3><small id="songArtist">For you ♡</small>
+   <audio id="audio"></audio><input id="seek" type="range" min="0" max="100" value="0" style="width:100%;accent-color:#efa5bd;margin-top:22px">
+   <div class="controls"><button onclick="prevSong()">|◀</button><button class="play" id="playBtn" onclick="togglePlay()">▶</button><button onclick="nextSong()">▶|</button></div>
+   <div class="tracklist" id="tracklist"></div>
+   <p style="font-size:10px;color:#b98b9d"></p>
+  </div>
+ </section>
+ <section class="section"><div class="eyebrow">— from my heart to yours —</div><h2>Reasons I'm Grateful To Know You</h2><p class="sub">Kocok toples dan ambil sebuah catatan 📝</p>
+  <div class="jar" aria-label="Toples catatan"><span class="paper"></span><span class="paper"></span><span class="paper"></span><span class="paper"></span><span class="paper"></span><span class="paper"></span></div>
+  <button class="pill" onclick="nextReason()">🫙 Kocok toplesnya</button><div class="reason-card" id="reasonCard">"Aku bersyukur karena kehadiranmu membuat hari-hari biasa terasa lebih istimewa."<small>CATATAN 1 DARI 8</small></div>
+ </section>
+ <footer>Made with ♡, just for <span id="footerName">Queen Sarah Ahista</span><br><br>May all beautiful things find you.</footer>
+</div>
+<script>
+// ================= PENGATURAN WEBSITE =================
+// Ubah nama, tanggal, kode rahasia, pesan, foto, dan lagu di bagian ini.
+const CONFIG = {
+  name: "Queen Sarah Ahista",
+  date: "NOVEMBER 17 · THE MOST SPECIAL DAY",
+  // Kode rahasia disesuaikan dengan tanggal spesial, misalnya 17 November 2026 = 17112026.
+  password: "171126",
+  memories: [
+    {image:"caya4.jpeg", title:"Caya Chomell", text:"Simpan kenangan indah ini baik-baik. Semoga selalu ada alasan untuk tersenyum."},
+    {image:"caya1.jpeg", title:"Caya Imoep", text:"Semoga setiap perjalanan membawa cerita dan kebahagiaan baru."},
+    {image:"caya3.jpeg", title:"Caya cantik", text:"Hal sederhana terasa istimewa ketika dikenang dengan orang yang tepat."},
+    {image:"caya2.jpeg", title:"Caya cantik", text:"Beberapa momen mungkin singkat, tetapi kenangannya bisa tinggal selamanya."}
+  ],
+  // File lagu yang tersedia di folder yang sama dengan halaman ini
+  songs: [
+    {title:"Penjaga Hati", artist:"Nadhif Basalamah", src:"./Nadhif Basalamah - penjaga hati (Lirik).mp3"},
+    {title:"Widodari", artist:"Denny Caknan feat. Guyon Waton", src:"./Lirik Lagu Widodari - Denny Caknan Feat. Guyon Waton (Lyrics Music).mp3"},
+    {title:"Here With Me", artist:"d4vd", src:"./d4vd - Here With Me (Lyrics).mp3"}
+  ]
+};
+document.getElementById('heroName').textContent=CONFIG.name;
+document.getElementById('footerName').textContent=CONFIG.name;
+document.getElementById('heroDate').textContent=CONFIG.date;
+let entered="";
+const keypad=document.getElementById('keypad');
+[1,2,3,4,5,6,7,8,9,'×',0,'↵'].forEach(v=>{
+ const b=document.createElement('button');b.className='key'+(v==='↵'?' enter':'');b.textContent=v;
+ b.onclick=()=>{if(v==='×'){entered=entered.slice(0,-1);updateDots()}else if(v==='↵'){checkPassword()}else if(entered.length<6){entered+=v;updateDots();if(entered.length===6)setTimeout(checkPassword,250)}};
+ keypad.appendChild(b);
+});
+function updateDots(){document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('on',i<entered.length))}
+function checkPassword(){if(entered===CONFIG.password){document.getElementById('gate').classList.add('hidden');document.getElementById('main').classList.remove('hidden');confetti(65);window.scrollTo(0,0)}else{document.getElementById('error').textContent='Kode belum tepat, coba lagi ya ♡';entered='';updateDots()}}
+document.addEventListener('keydown',e=>{if(!document.getElementById('gate').classList.contains('hidden')){if(/^[0-9]$/.test(e.key)&&entered.length<6){entered+=e.key;updateDots()}if(e.key==='Backspace'){entered=entered.slice(0,-1);updateDots()}if(e.key==='Enter')checkPassword();if(entered.length===6)setTimeout(checkPassword,250)}});
+const flowerNotes=["Kamu seperti mawar: indah dengan caramu sendiri. 🌹","Semoga kamu selalu punya cahaya dan alasan untuk bersinar. 🌻","Kamu pantas menerima semua hal indah di dunia. 💐","Semoga hari-harimu tumbuh menjadi cerita yang menyenangkan. 🌷","Jangan berhenti mekar dan menjadi dirimu sendiri. 🌸"];
+function showNote(i){document.getElementById('flowerNote').textContent='"'+flowerNotes[i]+'"';}
+const gallery=document.getElementById('gallery');
+CONFIG.memories.forEach((m,i)=>{const card=document.createElement('div');card.className='memory';card.innerHTML=`<div class="memory-inner"><div class="front">${m.image?`<img src="${m.image}" alt="${m.title}">`:`<div class="camera">📷</div><small>Ketuk untuk mengungkap</small>`}<small>${m.title}</small></div><div class="back">${m.text}</div></div>`;card.onclick=()=>card.classList.toggle('flipped');gallery.appendChild(card)});
+const reasons=["Aku bersyukur karena kehadiranmu membuat hari-hari biasa terasa lebih istimewa.","Terima kasih untuk setiap tawa dan cerita yang kamu bagikan.","Kamu mengajarkan bahwa hal sederhana pun bisa menjadi kenangan indah.","Aku suka caramu menjadi diri sendiri, tanpa perlu menjadi orang lain.","Semoga kamu selalu dikelilingi orang-orang yang menyayangimu.","Terima kasih sudah menjadi bagian dari cerita yang menyenangkan.","Kamu punya cara sendiri untuk membuat dunia terasa lebih hangat.","Aku berharap kebahagiaan selalu menemukan jalan menuju hatimu."];
+let reasonIndex=0;function nextReason(){reasonIndex=(reasonIndex+1)%reasons.length;document.getElementById('reasonCard').innerHTML=`“${reasons[reasonIndex]}”<small>CATATAN ${reasonIndex+1} DARI ${reasons.length}</small>`;confetti(12)}
+let songIndex=0;const audio=document.getElementById('audio');
+function renderSongs(){
+ const list=document.getElementById('tracklist');
+ list.innerHTML='';
+ CONFIG.songs.forEach((s,i)=>{
+  const d=document.createElement('div');
+  d.className='track'+(i===songIndex?' active':'');
+  d.innerHTML=`<span>${i+1}. ${s.title}<br><small>${s.artist}</small></span><span>♫</span>`;
+  d.onclick=()=>selectSong(i);
+  list.appendChild(d);
+ });
+ document.getElementById('songTitle').textContent=CONFIG.songs[songIndex].title;
+ document.getElementById('songArtist').textContent=CONFIG.songs[songIndex].artist;
+ audio.src=CONFIG.songs[songIndex].src || '';
+ audio.load();
+}
+function selectSong(i){
+ songIndex=(i+CONFIG.songs.length)%CONFIG.songs.length;
+ renderSongs();
+ if(audio.src){
+  audio.play().catch(()=>{});
+ }
+}
+function togglePlay(){
+ if(!audio.src){
+  alert('Tambahkan file MP3 pada bagian CONFIG.songs di dalam kode terlebih dahulu ya.');
+  return;
+ }
+ if(audio.paused){
+  audio.play().catch(()=>alert('Browser memblokir autoplay. Klik tombol play lagi ya.'));
+  document.getElementById('playBtn').textContent='Ⅱ';
+  document.getElementById('disc').classList.add('playing');
+ } else {
+  audio.pause();
+  document.getElementById('playBtn').textContent='▶';
+  document.getElementById('disc').classList.remove('playing');
+ }
+}
+function nextSong(){selectSong(songIndex+1)}function prevSong(){selectSong(songIndex-1)}
+audio.addEventListener('timeupdate',()=>{if(audio.duration)document.getElementById('seek').value=audio.currentTime/audio.duration*100});
+document.getElementById('seek').addEventListener('input',e=>{if(audio.duration)audio.currentTime=e.target.value/100*audio.duration});
+audio.addEventListener('ended',nextSong);renderSongs();
+function blowCandles(){confetti(90);document.querySelector('.cake').textContent='🎉';setTimeout(()=>document.querySelector('.cake').textContent='🎂',1800)}
+function confetti(count){const colors=['#f4a6bd','#f9d7a5','#e9a0b9','#fff0f5','#d68db0'];for(let i=0;i<count;i++){const el=document.createElement('i');el.className='confetti';el.style.left=Math.random()*100+'vw';el.style.background=colors[Math.floor(Math.random()*colors.length)];el.style.width=(5+Math.random()*7)+'px';el.style.height=(7+Math.random()*10)+'px';el.style.borderRadius=Math.random()>.5?'50%':'2px';el.style.animationDuration=(3+Math.random()*4)+'s';document.body.appendChild(el);setTimeout(()=>el.remove(),7500)}}
+for(let i=0;i<18;i++){const p=document.createElement('div');p.className='petal';p.textContent=['✿','❀','🌸','✧'][i%4];p.style.left=Math.random()*100+'vw';p.style.top=Math.random()*100+'vh';p.style.fontSize=(12+Math.random()*18)+'px';p.style.animationDelay=(-Math.random()*15)+'s';document.body.appendChild(p)}
+</script>
+</body>
+</html>
